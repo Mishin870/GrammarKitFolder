@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.mishin870.gkf</id>
   <name>Grammar-Kit Folder</name>
-  <version>1.0</version>
+  <version>1.0.1</version>
   <vendor email="Mikhail.Yurchenko@awara-it.com" url="https://t.me/Mishin870">Mikhail Yurchenko</vendor>
 
   <description><![CDATA[
@@ -38,6 +38,7 @@
   <idea-version since-build="192.6262"/>
 
   <depends>org.jetbrains.idea.grammar</depends>
+  <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <lang.foldingBuilder language="BNF" implementationClass="com.mishin870.gkf.BNFFoldingBuilder"/>
